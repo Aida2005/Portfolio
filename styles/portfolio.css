@@ -25,6 +25,7 @@ h6 {
 h1 {
   color: #05364d;
   font-weight: 500;
+  line-height: 1.5;
 }
 h2{
   font-size:64px;
@@ -84,4 +85,30 @@ a:hover {
 
 .btn-brandind-outline:hover{
   color:#fff;
+}
+
+.project{
+  padding:120px 60px ;
+}
+
+@media(max-width:900px){
+  h1{
+    font-size:44px;
+    line-height: 1.5;
+  }
+  h2{
+    font-size:44px;
+  }
+  .project{
+    padding:0;
+    text-align: center;
+
+  }
+  .hero{
+    padding:80px 20px;
+  }
+}
+.mine{
+  font-size: 45px;
+
 }
