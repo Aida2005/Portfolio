@@ -141,3 +141,13 @@ a:hover {
   font-size: 45px;
 }
 
+.homepage{
+  color: rebeccapurple;
+  display: block;
+  
+}
+
+.homepage:hover{
+  color: rebeccapurple;
+}
+
