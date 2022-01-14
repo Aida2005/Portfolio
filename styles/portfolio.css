@@ -52,10 +52,6 @@ p{
   padding: 160px 20px;
 }
 
-.about-section img{
-  border-radius: 10px;
-}
-
 .about-section-content{
   margin:30px;
 }
@@ -149,5 +145,9 @@ a:hover {
 
 .homepage:hover{
   color: rebeccapurple;
+}
+
+img{
+  border-radius: 10px;
 }
 
