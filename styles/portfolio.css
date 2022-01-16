@@ -248,6 +248,9 @@ hr {
 }
 
 @media screen and (max-width: 850px) {
+  .contact-h1{
+    text-align: center;
+  }
   .contact-wrapper {
     display: flex;
     flex-direction: column;
