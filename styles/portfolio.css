@@ -31,6 +31,10 @@ h2{
   font-size:64px;
 }
 
+h4{
+  font-size:30px;
+}
+
 p{
   font-size:16px;
   line-height: 30px;
@@ -122,6 +126,11 @@ a:hover {
   h2{
     font-size:44px;
   }
+
+  h4{
+    font-size: 26px;
+  }
+
   .project{
     padding:0;
     text-align: center;
@@ -135,8 +144,8 @@ a:hover {
     text-align: center;
     padding:0;
   }
-
 }
+
 .mine{
   font-size: 45px;
 }
@@ -337,6 +346,44 @@ textarea:valid+label {
   transform: scale(1.1, 1.1);
   filter: sepia(0.5);
 }
+footer{
+  margin: 60px 0;
+}
+footer .contact-box{
+background:whitesmoke;
+padding: 30px 120px;
+border-radius: 10px;
+}
+
+footer .contact-box p {
+margin:0;
+}
+
+ footer .footer-a{
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+}
+
+ footer .footer-a:hover{
+  color:blueviolet;
+   text-decoration: none;
+}
+
+footer .social-media-link a{
+  margin: 0 20px;
+  color:blueviolet;
+  background:whitesmoke;
+  padding: 10px;
+  font-size: 18px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-media-link a:hover{
+  color: white;
+  background: blueviolet;
+}
 
 @media only screen and (max-width: 800px) {
   h2 {
@@ -353,3 +400,4 @@ textarea:valid+label {
     padding-top: 30px;
   }
 }
+
