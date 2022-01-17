@@ -38,19 +38,38 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Aida Hamedi</title>
+    <meta name="description" content="About Aida, Aida is a front-end developer" />
+    <title>About Aida, Front-end developer - Aida Hamedi</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between" title="Homepage">
+        <a href="/">
+          <img src="images/aida.jpg" class="logo" alt="Aida logo" />
+        </a>
+        <ul>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Aida">About</a>
+          </li>
+          <li>
+            <a href="/certification.html" title="Aida's certification"
+              >Certifications
+            </a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Aida">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
-      <a class="homepage" href="about.html"> About page </a>
-      <a class="certification" href="certification.html"> Certifications </a>
-      <a class="homepage" href="Index.html"> Homepage </a><br />
-      <a class="contact" href="contact.html"> contact me </a><br />
-      <div class="row">
-        <div class="col-lg-6">
           <div class="content">
-            <h1 class="mb-4">Hi I'm Aida Hamedi</h1>
-            <h2 class="mb-4">Front-end developer</h2>
+            <h1 class="mb-4 text-center">Hi I'm Aida Hamedi</h1>
+            <h2 class="mb-4 text-center">Front-end developer</h2>
+              <img src="images/aida.png" class="img-fluid aida-img " alt="About Aida" />
+            </div>
             <p class="mb-4">
               Hey everybody ! welcome to my portfolio website 👋 I’m a 16 years
               old front-end developer 😊. I have many hobbies such as Coding,
@@ -58,13 +77,70 @@
               will see some of my projects and learn more about me, hope you
               will like them ! 😍
             </p>
-            <a href="#" class="img-fluid btn btn-branding">See my cv</a>
+            <div class="d-flex justify-content-center align-content-center">
+            <a href="/certification.html" class="img-fluid btn btn-branding">See my cv</a>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <img src="images/aida.png" class="img-fluid" alt="" />
-        </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Aida"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            class="footer-a"
+            href="mailto:aydahamedi56@gmail.com"
+            title="Email Aida"
+          >
+            aydahamedi56@gmail.com</a
+          >
+        </div>
+        <div class="social-media-link d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/aida_hamedi84/"
+            target="_blank"
+            title="Instagram profile"
+          >
+            <i class="fab fa-instagram fa-fw footer-icon"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/aida_hamedi84/"
+            target="_blank"
+            title="Email address"
+          >
+            <i class="fas fa-envelope fa-fw icon-3x footer-icon"></i>
+          </a>
+          <a
+            href="https://www.pinterest.com/aydahamedi56/_saved/"
+            target="_blank"
+            title="Pinterest profile"
+          >
+            <i class="fab fa-pinterest fa-fw footer-icon"></i>
+          </a>
+        </div>
+        <p class="open-sourced text-center mt-5">
+          ✌ This project was coded by Aida Hamedi, and it is
+          <a href="https://github.com/Aida2005/Portfolio" target="_blank">
+            open-sourced
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>

@@ -19,7 +19,7 @@ h6 {
 .hero {
   background: FFFFFF;
   text-align: left;
-  padding: 160px 100px;
+  padding: 80px 100px;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h2{
   font-size:64px;
 }
 
-h4{
+h3{
   font-size:30px;
 }
 
@@ -53,7 +53,7 @@ p{
 
 
 .content-container{
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 
@@ -66,9 +66,7 @@ p{
  font-size: 24px;
  line-height:1.5;
 }
-
 .btn-branding {
-  display: inline-block;
   background: var(--branding-color);
   color: #fff;
   letter-spacing: 0;
@@ -97,7 +95,6 @@ a:hover {
   color: #fff;
 }
 .btn-brandind-outline{
-  display: inline-block;
   background: var(--branding-color);
   color: #fff;
   letter-spacing: 0;
@@ -127,7 +124,7 @@ a:hover {
     font-size:44px;
   }
 
-  h4{
+  h3{
     font-size: 26px;
   }
 
@@ -136,13 +133,14 @@ a:hover {
     text-align: center;
 
   }
-  .hero{
-    padding:80px 20px;
-  }
-
+  
   .content-container{
     text-align: center;
     padding:0;
+  }
+  
+  .contact-h1{
+    font-size: 38px;
   }
 }
 
@@ -272,13 +270,6 @@ h2 {
   transform: scale(.95, 1);
 }
 
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 50px;
-}
-
 .link {
   margin: 10px;
   cursor: pointer;
@@ -395,9 +386,17 @@ footer .social-media-link a:hover{
   h2 {
     font-size: clamp(30px, 12vw, 60px);
   }
-  
-  .links {
-    padding-top: 30px;
-  }
+
+}
+.open-sourced  a{
+  color:blueviolet;
 }
 
+.aida-img{
+  display: block;
+  margin:0 auto;
+}
+
+.contact-h1{
+  color: black;
+}
